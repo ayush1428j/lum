@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&family=Ubuntu&display=swap');
+:root{
+    --font-1: 'Montserrat', sans-serif;
+    --font-2: 'Ubuntu', sans-serif;
+    --font-3: 'Roboto', 'Ubuntu';
+}
+/* mapPage */
+body{
+    background-color: rgb(70, 70, 92);
+    color: white;
+    font-family: var(--font-3);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 7%;
+    font-family: var(--font-2);
+    font-size: 22px;
+    background-color: rgb(175, 153, 235);
+}
+.nav::before{
+    content: '';
+    background: url('./images/lumbini.jpg') repeat center center/cover ;
+    position: absolute;
+    top: 110px;
+    left: 0px;
+width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+.navi img{
+    border-radius: 45px;
+    border:2px solid green;
+    height: 50px;
+}
+.nav a:hover{
+    color: rgb(164, 155, 144);
+    text-transform:inherit;
+    transition: all 0.1s ease-in-out;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+.list li{
+    list-style: none;
+    padding: 13px;
+}
+.list li a{
+    text-decoration: none;
+    color: rgb(249, 246, 246);
+}
+.search{
+    margin-top: 8px;
+}
+.search input{
+    border-radius: 13px;
+    background-color: white;
+    width: 170px;
+    margin-right: 3px;
+    color: red;
+    padding: 8px;
+}
+button{
+    background-color: rgb(154, 154, 179);
+    height: 43px;
+    width: 70px;
+    margin-right: 5px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.main{
+    /* background-color:  rgb(170, 198, 241); */
+    opacity:0.7;
+    margin-top: -60px;
+    z-index: 0;
+}
+.ktm{
+    text-align: center;
+    color: rgb(30, 29, 30);
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-left: 30%;
+    border: 3px;
+    background-color: rgb(163, 247, 232);
+    width: 40%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.btt{
+    float: right;
+    position: sticky;
+    color: white;
+    background-color: black;
+    width: 90px;
+    height: 20px;
+    text-decoration: none;
+    border-radius: 9px;
+  }
+  
+
+.Content{
+    color: white;
+    margin-top: 2%;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.mapMsg{
+    display: flex;
+    background-color: rgb(209, 201, 237);
+    color: rgb(11, 10, 10);
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.mapMsg h3{
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.mapSrc{
+    border-radius: 30px;
+}
+.maptitle{
+    text-align: center;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+.locs{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(227, 28, 150);
+    background-color: white;
+    
+}
+
+.footer{
+    padding: 20px;
+    background-color:  rgb(175, 153, 235);
+    margin-top: auto;
+    color: white;
+    text-align: center;
+
+}

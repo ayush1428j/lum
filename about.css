@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&family=Ubuntu&display=swap');
+:root{
+    --font-1: 'Montserrat', sans-serif;
+    --font-2: 'Ubuntu', sans-serif;
+    --font-3: 'Roboto', 'Ubuntu';
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 7%;
+    font-family: var(--font-2);
+    font-size: 22px;
+    background-color: rgb(175, 153, 235);
+    
+}
+.navi img{
+    border-radius: 45px;
+    border:2px solid green;
+    height: 50px;
+}
+
+
+.box{
+        height: 500px;
+    width: 1000px;
+    padding: 0% 5%;
+    background-color: rgb(202, 214, 247);
+    border-radius: 39px;
+    margin: auto;
+    margin-top: 8%;
+    opacity: 0.7;
+    align-items: center;
+
+}
+.text{
+    margin-top: 104px;
+    padding: 24px;
+    text-align: center;
+    color:  rgb(227, 28, 150);
+}
+.exterText{
+    text-align: center;
+    margin-top: 28px;
+    font-size: 25px;
+    font-style: italic;
+}
+.para{
+    display: flex;
+    font-family: var(--font-2);
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+
+
+}
+
+.nav a:hover{
+    color: rgb(164, 155, 144);
+    text-transform:inherit;
+    transition: all 0.1s ease-in-out;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+.list li{
+    list-style: none;
+    padding: 13px;
+}
+.list li a{
+    text-decoration: none;
+    color: rgb(249, 246, 246);
+}
+.search{
+    margin-top: 8px;
+}
+.search input{
+    border-radius: 13px;
+    background-color: white;
+    width: 170px;
+    margin-right: 3px;
+    color: red;
+    padding: 8px;
+}
+button{
+    background-color: rgb(154, 154, 179);
+    height: 43px;
+    width: 70px;
+    margin-right: 5px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.title{
+        text-align: center;
+        margin: center;
+        margin-top: 15%;
+        /* margin-right: 20%; */
+        text-transform: uppercase;
+        font-family: var(--font-3);
+        font-size: 92px;
+        color : rgb(48, 238, 92);
+}
+.msg{
+    font-family: var(--font-3);
+    font-size: 60px;
+    color: rgb(227, 28, 150);
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    /* margin-left: 20%; */
+}
+
+.para{
+    /* background-color: rgb(53, 180, 53); */
+    color: rgb(42, 39, 39);
+    font-size: 30px;
+    opacity: 5;
+    text-align: center;
+}
+.btt{
+  float: right;
+  position: sticky;
+  color: white;
+  background-color: black;
+  width: 80px;
+  height: 20px;
+  text-decoration: none;
+  border-radius: 9px;
+}
+
+.nav::before{
+    content: '';
+    background: url('./images/lumbini.jpg') repeat center center/cover ;
+    position: absolute;
+    top: 110px;
+    left: 0px;
+width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+.footer{
+    padding: 20px;
+    background-color: rgb(175, 153, 235) ;
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bold;
+}
